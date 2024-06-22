@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #f0f0f5;
+  margin-top:50px;
+}
+
+.container h1 {
+  font-size: 3em; /* Increased text size */
+  font-weight: bold;
+  color: #333; /* Slightly dark text color for better readability */
+}
+
+.container img {
+  width: 80%; /* Slightly reduced image size */
+  max-width: 600px; /* Ensure image doesn't get too large on wider screens */
+  border-radius: 10px; /* Adding a bit of rounded corners to the image */
+}

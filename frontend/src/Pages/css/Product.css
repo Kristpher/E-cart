@@ -1,0 +1,15 @@
+.selecteditems{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+}
+.product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product h1{
+  margin-top: 40px;
+}

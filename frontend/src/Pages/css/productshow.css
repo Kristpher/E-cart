@@ -1,0 +1,93 @@
+.productpage{
+  display:flex;
+  margin:0px 100px;
+ 
+  padding:10px;
+}
+.prod-left{
+  display: flex;
+  gap:17px;
+}
+.small-img-left{
+  display: flex;
+  flex-direction: column;
+ gap:10px;
+}
+.small-img-left img{
+  height:163px;
+}
+.bigimage img{
+  width:586px;
+  height: 700px;
+}
+.prod-right{
+  display: flex;
+  flex-direction: column;
+  margin:0px 70px;
+  
+}
+.prod-right h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+.rating{
+  display: flex;
+ align-items:center ;
+ margin-top: 13px;
+ gap:5px;
+ font-size: 16px;
+}
+.rating img{
+  height:20px;
+}
+.rating p{
+  margin-left:5px;
+}
+.pmoney{
+display:flex;
+gap:30px;
+margin: 20px 0px;
+font-size: 24px;
+font-weight: 500;
+
+
+}
+ .newmoney{
+  color: orangered;
+}
+ .oldmoney{
+  color: rgb(130, 129, 128);
+  text-decoration: line-through;
+}
+.selection h2{
+margin-top: 55px;
+font-size: 20px;
+font-weight: 600;
+}
+.sizes{
+  display: flex;
+  gap:20px;
+  margin:30px 0px;
+}
+.sizes div{
+  padding:18px 24px;
+  cursor: pointer;
+  border-radius: 2px;
+
+  text-align: center;
+  
+  background-color:rgb(235, 204, 250) ;
+}
+.prod-right button{
+  width: 180px;
+  height: 50px;
+  padding: 10px 20px;
+  background-color: #8a2be2;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}

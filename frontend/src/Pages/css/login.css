@@ -1,0 +1,114 @@
+.forall {
+  padding-top: 100px;
+  background-color: rgb(212, 185, 255);
+  width: 100%;
+  height: 100vh;
+ 
+}
+
+.log {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(253, 253, 253);
+  margin: auto;
+  padding: 40px 50px;
+  border-radius: 40px;
+  text-align: center;
+}
+/*hi*/
+.allpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.allpage h1 {
+  font-size: 40px;
+  text-align: center; 
+  width: 100%; 
+}
+
+.allpage input {
+  height: 72px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid rgb(177, 174, 174);
+  outline: none;
+  color: rgb(58, 57, 57);
+  font-size: 18px;
+}
+
+.log button {
+  margin-top: 10px;
+  background-color: rgb(153, 69, 209);
+  height: 72px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.e {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.log span {
+  color: blue;
+}
+@media(max-width:1280px){
+  .forall{
+    padding-top: 50px;
+  }
+  .log{
+    width:auto;
+    max-width: 450px;
+    max-height: 450px;
+  }
+
+  .allpage {
+    gap:20px;
+    margin-top: 20px;
+  }
+  .allpage input{
+    height:64px;
+    width: 93%;
+  }
+  .log button{
+    width:100%;
+  }
+
+  
+ 
+}
+
+@media(max-width:800px){
+ 
+  .log{
+   padding:20px 30px;
+  }
+
+  .allpage {
+    gap:20px;
+    margin-top: 20px;
+  }
+  .allpage input{
+    height:64px;
+    width: 93%;
+  }
+  .log button{
+    width:100%;
+  }
+
+  
+ 
+}

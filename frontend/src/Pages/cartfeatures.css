@@ -1,0 +1,72 @@
+.cart-main {
+  margin: 100px 170px;
+}
+
+.cart-main hr {
+  height: 3px;
+  background: rgb(178, 173, 173);
+  border: 0;
+}
+
+.Cartfeatures {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+  color: rgb(68, 67, 66);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.individual {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.image-of-product {
+  height: 62px;
+}
+
+.individual button {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(181, 131, 229);
+  color: white;
+  border: none;
+}
+
+.finalprocess {
+  display: flex;
+  margin-top:100px;
+  width: 50%;
+}
+
+.totalamount {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  gap: 30px;
+
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.totalamount button {
+  width: 250px;
+  height: 50px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+

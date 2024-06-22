@@ -1,0 +1,66 @@
+.news {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%; /* Reduced width */
+  height: 35vh; /* Reduced height */
+  margin: auto;
+  padding: 0px 80px; /* Adjusted padding */
+  gap: 30px;
+  background: linear-gradient(180deg, #e6bde9, #ffffff); /* Gradient background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.news h1 {
+  font-size: 50px; /* Slightly reduced font size */
+  font-weight: 600;
+  color: #333; /* Slightly darker text color for better contrast */
+}
+
+.news p {
+  font-size: 18px; /* Slightly reduced font size */
+  color: #555; /* Darker text color for better readability */
+}
+
+.news div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 100%; /* Adjusted width */
+  border-radius: 80px;
+  height: 60px; /* Slightly reduced height */
+  border: 1px solid rgb(240, 233, 233);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for the input container */
+}
+
+.news input {
+  width: 60%; /* Adjusted width */
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  color: rgb(167, 166, 165);
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 10px 20px; /* Padding for better spacing */
+}
+
+.news div button {
+  width: 150px; /* Slightly reduced width */
+  height: 60px; /* Slightly reduced height */
+  background-color: blueviolet;
+  border-radius: 80px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.news div button:hover {
+  background-color: darkviolet;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}

@@ -1,0 +1,14 @@
+.footer{
+  margin-top: 100px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+  background-color: rgb(243, 243, 243);
+} 
+.navs{
+  display: flex;
+  gap:10px;
+  color: rgb(106, 106, 106);
+}

@@ -1,0 +1,206 @@
+/* General Styles */
+.Icon img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Menu ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.Menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.userstuffs button {
+  width: 100px;
+  height: 50px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Menu hr {
+  background: rgb(255, 0, 0);
+  width: 80%;
+  height: 3px;
+  border-radius: 3px;
+  border: none;
+}
+
+.iconone {
+  width: 30px;
+}
+
+.iconuser {
+  width: 40px;
+}
+
+.userstuffs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  margin-left: 20px;
+}
+
+.counter {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -48px;
+  margin-top: -38px;
+  font-size: 14px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+  .Navbar {
+    padding: 12px 50px;
+  }
+
+  .Icon img {
+    width: 40px;
+  }
+
+  .Icon h2 {
+    font-size: 25px;
+  }
+
+  .Menu ul {
+    gap: 30px;
+  }
+
+  .Menu li {
+    font-size: 16px;
+  }
+
+  .userstuffs {
+    gap: 30px;
+  }
+
+  .userstuffs button {
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .counter {
+    margin-left: -40px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Navbar {
+    padding: 12px 30px;
+  }
+
+  .Icon img {
+    width: 30px;
+  }
+
+  .Icon h2 {
+    font-size: 20px;
+  }
+
+  .Menu ul {
+    gap: 25px;
+  }
+
+  .Menu li {
+    font-size: 14px;
+  }
+
+  .userstuffs {
+    gap: 25px;
+  }
+
+  .userstuffs button {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .counter {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Navbar {
+    flex-direction: column;
+    padding: 12px 20px;
+  }
+
+  .Icon img {
+    width: 25px;
+  }
+
+  .Icon h2 {
+    font-size: 18px;
+  }
+
+  .Menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Menu li {
+    font-size: 12px;
+  }
+
+  .userstuffs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .userstuffs button {
+    width: 80px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .counter {
+    margin-left: 0;
+    margin-top: -5px;
+    font-size: 10px;
+  }
+}
